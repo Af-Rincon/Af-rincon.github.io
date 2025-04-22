@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Andres Rincon</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/75677a1932.js" crossorigin="anonymous" rel="stylesheet"></script>
+    <link href="css/aos.css?ver=1.1.0" rel="stylesheet">
+    <link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet">
+    <link href="css/main.css?ver=1.1.0" rel="stylesheet">    
+    <noscript>
+        <style type="text/css">
+            [data-aos] {
+                opacity: 1 !important;
+                transform: translate(0) scale(1) !important;
+            }
+        </style>
+    </noscript>
+    <style>
+        .container-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 15px;
+        }
+
+        @media (min-width: 768px) {
+            .container-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 30px;
+            }
+        }
+
+        .cc-portfolio-image {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .cc-portfolio-image figure {
+            margin: 0;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            height: 100px; /* Adjust this value as needed */
+        }
+
+        .cc-portfolio-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .cc-portfolio-image figcaption {
+            text-align: left;
+        } 
+        /* Added styling to set the height of the figure */
+        .cc-portfolio-image figure {
+            height: 200px; /* Adjust this value as needed */
+        }
+        .icon-container {
+           
+            width: 100%;
+            height: 100%;
+        }
+
+        .icon-container img {
+            
+            vertical-align: middle; /* Align the img vertically */
+            text-align: center; /* Center the img horizontally */
+        }
+    </style>
+</head>
+
+<div class="modal fade" id="hololens" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Mixed Reality Interface </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+
+        </div>
+        
+        <div class="modal-body">
+            
+          Developed and designed a mixed reality interface that established a 
+          communication between the HoloLens glasses and an pneumatic arm using the Unity game engine.
+            <br>
+
+            <iframe width="420" height="315"
+            src="https://www.youtube.com/embed/6QqKRhCZQ00">
+            </iframe> 
+            
+            <br>
+            <br>
+            <b>Tools Used:</b>
+            <ul >
+                <li>Unity</li>
+                <li>C#</li>
+                <li>MRTK</li>
+                <li>Arduino</li>
+            </ul>
+    
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="escapeVR" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Escape VR </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+
+        </div>
+        
+        <div class="modal-body">
+            
+          Thesis Virtual Reality Project. The project is inspired by escape rooms. Therefore, it is intended for the players to work together in order to solve
+          different puzzles within a given amount of time. The objective of the project is to reinforce communication skills.
+            <br>
+
+            <iframe width="420" height="315"
+            src="https://www.youtube.com/embed/YTirepAXH68?mute=1&loop=1">
+            </iframe>    
+            
+            <br>
+            <br>
+            <b>Tools Used:</b>
+            <ul >
+                <li>Unity</li>
+                <li>C#</li>
+                <li>Blender</li>
+            </ul>
+    
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="harmonyVR" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Harmony </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+
+        </div>
+        
+        <div class="modal-body">
+            
+          Developed a game to teach people how to play the drums and interact with other users using a virtual reality environment.
+            <br>
+
+            <iframe width="420" height="315"
+            src="https://www.youtube.com/embed/zGjTCYMH6rM?mute=1&loop=1">
+            </iframe>    
+            
+            <br>
+            <br>
+            <b>Tools Used:</b>
+            <ul >
+                <li>Unity</li>
+                <li>C#</li>
+                <li>Blender</li>
+            </ul>
+    
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="driVR" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">DriVR </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+
+        </div>
+        
+        <div class="modal-body">
+            
+          Developed a virtual reality game that taught people how to drive in a virtual environment.
+            <br>
+
+            <iframe width="420" height="315"
+            src="https://www.youtube.com/embed/ZSG5q8_Lkcg?mute=1&loop=1">
+            </iframe>    
+            
+            <br>
+            <br>
+            <b>Tools Used:</b>
+            <ul >
+                <li>Unity</li>
+                <li>C#</li>
+                <li>Blender</li>
+            </ul>
+    
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<body id="top">
+    <header>
+        <div class="profile-page sidebar-collapse">
+            <nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400">
+                <div class="container">
+                    <div class="navbar-translate"><a class="navbar-brand" href="#" rel="tooltip"></a>
+                        <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navigation" aria-controls="navigation" aria-expanded="false"
+                            aria-label="Toggle navigation"><span class="navbar-toggler-bar bar1"></span><span
+                                class="navbar-toggler-bar bar2"></span><span
+                                class="navbar-toggler-bar bar3"></span></button>
+                    </div>
+                    <div class="collapse navbar-collapse justify-content-end" id="navigation">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About</a></li>
+                            <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
+                            <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Experience</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+
+
+    <div class="page-content">
+        <div>
+            <div class="profile-page">
+                <div class="wrapper">
+                    <div class="page-header page-header-small" filter-color="green">
+                        <div class="page-header-image" data-parallax="true"
+                            style="background-image: url('images/backgroundVR.jpeg')"></div>
+                        <div class="container">
+                            <div class="content-center">
+                                <div class="cc-profile-image"><a href="#"></a><img src="images/yo.png"
+                                            alt="Image" /></a></div>
+                                <div class="h2 title">Andres Rincon</div>
+                                <p class="category text-white">Software Engineer</p>
+                                    <a class="btn btn-primary image fit" 
+                                    href="Andres_Rincon_CV_EN.pdf"
+                                    data-aos="zoom-in" data-aos-anchor="data-aos-anchor" target="_blank">READ MY CV</a>
+                            </div>
+                        </div>
+                        <div class="section">
+                            <div class="container">
+                                <div class="button-container">
+                                    <a class="btn btn-default btn-round btn-lg btn-icon"
+                                    href="https://www.linkedin.com/in/andresrinconp/" rel="tooltip"
+                                    title="LinkedIn Profile" target="_blank"><i class="fa fa-linkedin"></i></a>                                 
+                                    <a class="btn btn-default btn-round btn-lg btn-icon"
+                                        href="https://github.com/Af-Rincon" rel="tooltip"
+                                        title="GitHub"  target="_blank"><i class="fa fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section" id="about">
+                <div class="container">
+                    <div class="card" data-aos="fade-up" data-aos-offset="10">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12">
+                                <div class="card-body">
+                                    <div class="h4 mt-0 title">About</div>
+                                    <p>I'm a Software Engineer with a B.Sc. in Systems and Computing Engineering from Universidad de los Andes. 
+                                        Previously I worked at Publicis Global Delivery, developing interactive applications. 
+                                        I have Research experience as a Visiting Scholar at Purdue University, integrating hardware-software systems in mixed reality. 
+                                        I like to learn about different subjects; If you want to work on a creative project send me a message.</p>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12">
+                                <div class="card-body">
+                                    <div class="h4 mt-0 title">Bio</div>
+                                    <div class="row mt-3">
+                                        <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
+                                        <div class="col-sm-8">af.rincon@uniandes.edu.co arinconp@purdue.edu</div>
+                                    </div>
+                                    <div class="row mt-3">
+                                        <div class="col-sm-4"><strong class="text-uppercase">Phone:</strong></div>
+                                        <div class="col-sm-8">(+57) 3196013007</div>
+                                    </div>
+                                    <div class="row mt-3">
+                                        <div class="col-sm-4"><strong class="text-uppercase">Language:</strong></div>
+                                        <div class="col-sm-8">English (C1) and Spanish (Native)</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section" id="portfolio">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 ml-auto mr-auto">
+                            <div class="h4 text-center mb-4 title">Portfolio</div>                            
+                            <div class="nav-align-center">
+                                <ul class="nav nav-pills nav-pills-primary" role="tablist">
+                                    <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#project-unity" role="tablist" ><i class="fa-brands fa-unity" style="color: black;" aria-hidden="true"></i></a></li>
+                                    <li class="nav-item"><a class="nav-link"        data-toggle="tab" href="#project-unreal" role="tablist" > <img class="icon-container" src="images/unreal.svg" alt="Icon"></img></a></li>
+                                    <li class="nav-item"><a class="nav-link"        data-toggle="tab" href="#project-javascript" role="tablist" > <i class="fab fa-js" style="color: #FFD43B;"></i></a></li>
+                               
+                                </ul>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-content gallery mt-5">
+                        <div class="tab-pane" id="project-unity"  role="tabpanel">
+                            <div class="ml-auto mr-auto">
+              
+                                <div class="container">
+                                    <div class="container-grid">
+                                       
+                                        <div class="cc-porfolio-image img-raised" data-aos="fade-up"
+                                        data-aos-anchor-placement="top-bottom"><a data-toggle="modal" data-target="#hololens" href="!#">
+                                            <figure class="cc-effect"><img src="images/Hololens_Card.png" alt="Image"  width="550" height="370" />
+                                                <figcaption style.vertical-align : top >
+                                                    <div class="h4">Mixed Reality Interface</div>
+                                                    <p>Engine: Unity</p>
+                                                    <p>Language: C#</p>
+                                                    <p>2024</p>
+                                                
+                                                </figcaption>
+                                            </figure>
+                                        </a></div>
+                                         <div class="cc-porfolio-image img-raised" data-aos="fade-up"
+                                            data-aos-anchor-placement="top-bottom"><a data-toggle="modal" data-target="#escapeVR" href="!#">
+                                                <figure class="cc-effect"><img src="images/EscapeVR_Card.png" alt="Image"  width="550" height="370"  />
+                                                    <figcaption>
+                                                        <div class="h4">Escape VR</div>
+                                                        <p>Engine: Unity</p>
+                                                        <p>Language: C#</p>
+                                                        <p>2023</p>
+              
+                                                    </figcaption>
+                                                </figure>
+                                            </a></div>
+                                        
+                                            <div class="cc-porfolio-image img-raised" data-aos="fade-up"
+                                            data-aos-anchor-placement="top-bottom"><a data-toggle="modal" data-target="#harmonyVR" href="!#">
+                                                <figure class="cc-effect"><img src="images/Harmony_Card.png" alt="Image"  class="center"  width="550" height="370"  />
+                                                    <figcaption>
+                                                        <div class="h4">Harmony</div>
+                                                        <p>Engine: Unity</p>
+                                                        <p>Language: C#</p>
+                                                        <p>2022</p>
+                                                    </figcaption>
+                                                </figure>
+                                            </a></div>
+              
+                                        <div class="cc-porfolio-image img-raised" data-aos="fade-up"
+                                            data-aos-anchor-placement="top-bottom"><a data-toggle="modal" data-target="#driVR" href="!#">
+                                                <figure class="cc-effect"><img src="images/DriVR_Card.png" alt="Image"  width="550" height="370" />
+                                                    <figcaption>
+                                                        <div class="h4">DriVR</div>
+                                                        <p>Engine: Unity</p>
+                                                        <p>2019</p>
+                                                    </figcaption>
+                                                </figure>
+                                            </a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+              
+              </div>
+
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section" id="experience">
+                <div class="container cc-experience">
+                    <div class="h4 text-center mb-4 title">Work Experience</div>
+                    <div class="card">
+                        <div class="row">
+                            <div class="col-md-3 bg-primary" >
+                                <div class="card-body cc-experience-header">
+                                    <p>October 2023 - March 2025 </p>
+                                    <div class="h5">Publicis Global Delivery</div>
+                                </div>
+                            </div>
+                            <div class="col-md-9" >
+                                <div class="card-body">
+                                    <div class="h5">Creative Associate Engineer</div>
+                                    <p><ul> <li>Developed interactive applications using JavaScript, integrating real-time data processing for marketing solutions. </li>
+                                    </ul></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="row">
+                            <div class="col-md-3 bg-primary" >
+                                <div class="card-body cc-experience-header">
+                                    <p>February 2023 - May 2023</p>
+                                    <div class="h5">Purdue University</div>
+                                </div>
+                            </div>
+                            <div class="col-md-9" >
+                                <div class="card-body">
+                                    <div class="h5">Visiting Scholar</div>
+                                    <p><ul> <li> Designed and developed a mixed reality interface in C# for real-time communication between HoloLens and a
+                                        pneumatic arm</li>
+                                    </ul></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="row">
+                            <div class="col-md-3 bg-primary" >
+                                <div class="card-body cc-experience-header">
+                                    <p>May 2022 - August 2022</p>
+                                    <div class="h5">Purdue University</div>
+                                </div>
+                            </div>
+                            <div class="col-md-9" >
+                                <div class="card-body">
+                                    <div class="h5">Summer Undergraduate Research Fellowship</div>
+                                    <p>Part of Experience Driven Optimization of virtual Environments project at the Computer Graphics Technology
+                                        department (CGT) with Professor Christos Mousas.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="row">
+                            <div class="col-md-3 bg-primary" >
+                                <div class="card-body cc-experience-header">
+                                    <p>August 2022 - December 2022</p>
+                                    <div class="h5">Universidad de los Andes</div>
+                                </div>
+                            </div>
+                            <div class="col-md-9" >
+                                <div class="card-body">
+                                    <div class="h5">Undergraduate Teaching Assistant</div>
+                                    <p> <ul>
+                                        <li>Assisted students in their first approaches to programming using different tools such as Unity, Kodular, and
+                                            Arduino.</li>
+                                    </ul></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="container cc-education">
+                    <div class="h4 text-center mb-4 title">Education</div>
+                    <div class="card">
+                        <div class="row">
+                            <div class="col-md-3 bg-primary" >
+                                <div class="card-body cc-education-header">
+                                    <p>2019 - 2023</p>
+                                    <div class="h5">Bachelor's Degree</div>
+                                </div>
+                            </div>
+                            <div class="col-md-9" >
+                                <div class="card-body">
+                                    <div class="h5">Systems and Computing Engineering</div>
+                                    <p class="category">Universidad de los Andes</p>
+                                    <p> <ul><li> Member of the Colivri Computer Graphics Lab</li></ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                </div>
+            </div>
+           
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="h6 title text-center">Template by: Anthony Barnett</div>
+        <div class="text-center text-muted">
+            <p>&copy; Creative CV. All rights reserved.<br>Design - <a class="credit" href="https://templateflip.com"
+                    target="_blank">TemplateFlip</a></p>
+        </div>
+    </footer>
+    <script src="js/core/jquery.3.2.1.min.js?ver=1.1.0"></script>
+    <script src="js/core/popper.min.js?ver=1.1.0"></script>
+    <script src="js/core/bootstrap.min.js?ver=1.1.0"></script>
+    <script src="js/now-ui-kit.js?ver=1.1.0"></script>
+    <script src="js/aos.js?ver=1.1.0"></script>
+    <script src="scripts/main.js?ver=1.1.0"></script>
+</body>
+
+</html>
